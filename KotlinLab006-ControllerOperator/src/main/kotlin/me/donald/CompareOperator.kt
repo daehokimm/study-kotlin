@@ -37,7 +37,7 @@ fun main(args: Array<String>) {
     println("data1 == data3 : ${data1 == data3}")       // true
     println("data1 === data3 : ${data1 === data3}")     // true
     println("data3 == data4 : ${data3 == data4}")       // true
-    println("data3 === data4 : ${data3 === data4}")     // true   : -127 < int < 128
+    println("data3 === data4 : ${data3 === data4}")     // true   : -128 <= int <= 127
     println("data5 == data6 : ${data5 == data6}")       // true
     println("data5 === data6 : ${data5 === data6}")     // false
 
