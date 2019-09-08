@@ -1,25 +1,15 @@
 package me.donald.todo.domain
 
+import org.springframework.data.annotation.Id
+import org.springframework.data.relational.core.mapping.Table
 import java.time.LocalDateTime
-import javax.persistence.*
 
-@Entity
-@Table(name = "todos")
-class Todo {
+@Table("todos")
+data class Todo (
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var id : Long = 0
-
-    @Lob
-    @Column(name = "content")
-    var content : String? = null
-
-    @Column(name = "done")
-    var done : Boolean = false
-
-    @Column(name = "created_at")
-    var createdAt : LocalDateTime = LocalDateTime.now()
-
-    @Column(name = "modified_at")
+    var id : Long? = null,
+    var content : String? = null,
+    var done : Boolean = false,
+    var createdAt : LocalDateTime = LocalDateTime.now(),
     var modifiedAt : LocalDateTime = createdAt
-}
+)
