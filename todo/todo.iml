@@ -46,6 +46,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: io.r2dbc:r2dbc-spi:0.8.0.M8" level="project" />
+    <orderEntry type="library" name="Maven: io.r2dbc:r2dbc-h2:0.8.0.M8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-webflux:2.2.0.M5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.2.0.M5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.2.0.M5" level="project" />
@@ -128,7 +130,7 @@
     <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.3.0.M3" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot.experimental:spring-boot-starter-data-r2dbc:0.1.0.BUILD-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: io.r2dbc:r2dbc-spi:0.8.0.M8" level="project" />
+    <orderEntry type="library" name="Maven: io.r2dbc:r2dbc-spi:0.8.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot.experimental:spring-boot-autoconfigure-r2dbc:0.1.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-r2dbc:1.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.2.0.RC2" level="project" />
@@ -138,7 +140,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.0.RC1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.2.0.RC1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot.experimental:spring-boot-starter-r2dbc-h2:0.1.0.BUILD-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: io.r2dbc:r2dbc-h2:0.8.0.M8" level="project" />
+    <orderEntry type="library" name="Maven: io.r2dbc:r2dbc-h2:0.8.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.h2database:h2:1.4.199" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.2.0.RC1" level="project" />
